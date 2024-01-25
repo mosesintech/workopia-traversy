@@ -1,7 +1,7 @@
-<?php require getBasePath('views/partials/head.php'); ?>
-<?php require getBasePath('views/partials/navbar.php'); ?>
-<?php require getBasePath('views/partials/showcase-search.php'); ?>
-<?php require getBasePath('views/partials/top-banner.php'); ?>
+<?php loadPartial('head'); ?>
+<?php loadPartial('navbar'); ?>
+<?php loadPartial('showcase-search'); ?>
+<?php loadPartial('top-banner'); ?>
 
 <!-- Job Listings -->
 <section>
@@ -163,5 +163,5 @@
         </a>
 </section>
 
-<?php require getBasePath('views/partials/bottom-banner.php'); ?>
-<?php require getBasePath('views/partials/footer.php'); ?>
+<?php loadPartial('bottom-banner'); ?>
+<?php loadPartial('footer'); ?>
